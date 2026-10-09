@@ -3,10 +3,10 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_USER = "Uday1002"
+        DOCKER_USER = "uday1002"
 
-        BACKEND_IMAGE = "Uday1002/student-task-backend"
-        FRONTEND_IMAGE = "Uday1002/student-task-frontend"
+        BACKEND_IMAGE = "uday1002/student-task-backend"
+        FRONTEND_IMAGE = "uday1002/student-task-frontend"
     }
 
     stages {
