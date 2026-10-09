@@ -3,10 +3,10 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_USER = "sujeetsr07"
+        DOCKER_USER = "Uday1002"
 
-        BACKEND_IMAGE = "sujeetsr07/student-task-backend"
-        FRONTEND_IMAGE = "sujeetsr07/student-task-frontend"
+        BACKEND_IMAGE = "Uda1002/student-task-backend"
+        FRONTEND_IMAGE = "Uday1002/student-task-frontend"
     }
 
     stages {
@@ -22,7 +22,7 @@ pipeline {
                 withCredentials([
                     usernamePassword(
                         credentialsId: "docker-hub-cred",
-                        usernameVariable: "Uday1002",
+                        usernameVariable: "DOCKER_USERNAME",
                         passwordVariable: "DOCKER_PASSWORD"
                     )
                 ]) {
