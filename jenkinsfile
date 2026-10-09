@@ -5,7 +5,7 @@ pipeline {
     environment {
         DOCKER_USER = "Uday1002"
 
-        BACKEND_IMAGE = "Uda1002/student-task-backend"
+        BACKEND_IMAGE = "Uday1002/student-task-backend"
         FRONTEND_IMAGE = "Uday1002/student-task-frontend"
     }
 
