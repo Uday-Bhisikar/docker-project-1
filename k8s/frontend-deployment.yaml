@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: uday1002/student-task-frontend:v1.0.9
+          image: uday1002/student-task-frontend:v1.0.10
           ports:
             - containerPort: 80
