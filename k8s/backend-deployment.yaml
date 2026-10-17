@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: backend
-          image: uday1002/student-task-backend:v1.0.7
+          image: uday1002/student-task-backend:v1.0.8
           ports:
             - containerPort: 80
